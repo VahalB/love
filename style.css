@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20%;
+  }
+  
+  .option {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .option:hover {
+    color: yellow;
+  }
+  
+  .yes {
+    text-align: left;
+  }
+  
+  .no {
+    text-align: right;
+  }
+  
+  .heart {
+    display: none;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+  }
+
+  .death {
+    display: none;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+  }
+  
+  
